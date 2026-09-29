@@ -10,9 +10,10 @@ to a target location using Proximal Policy Optimization (PPO) via Stable-Baselin
 - Training: 200,000 timesteps, ~3.5 minutes on CPU
 
 ## Results
-Episode reward improved from approximately -47.5 to -38.6 over training 
-(see training_curve.png). The trained policy shows visibly more purposeful 
-arm movement toward the target compared to a random baseline.
+Episode reward improved from approximately -120 to -38 over training 
+(see training_curve.png), with reward still trending upward when training 
+stopped. The trained policy shows visibly more purposeful arm movement 
+toward the target compared to a random baseline.
 
 ## What I'd try next
 - Longer training (500k-1M timesteps) to see if reward continues improving
